@@ -36,7 +36,21 @@ The goal of this assignment is to practice AI-assisted frontend engineering work
 
 ## Project Status
 
-Initial project setup completed.
+Week 1 repository setup is in progress.
+
+`README.md` and `CLAUDE.md` are in place, and git history uses Conventional Commits. `LICENSE` and `.gitignore` exist as placeholders and still need content. A GitHub remote has not been added yet, and there is no frontend application code in this week’s setup.
+
+## GitHub Setup
+
+Clone the repository and enter the project directory:
+
+```bash
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/flyrank-fe-01.git
+cd flyrank-fe-01
+```
+
+Replace `<YOUR_GITHUB_USERNAME>` with the GitHub account that hosts this repository.
+
 ## Assignment Goals
 
 This assignment focuses on building a foundation for AI-assisted frontend engineering.
@@ -58,3 +72,8 @@ flyrank-fe-01/
 ├── CLAUDE.md
 ├── LICENSE
 └── .gitignore
+```
+
+## License
+
+This project uses the [MIT License](LICENSE). You may use, copy, modify, and distribute the software under the terms in the `LICENSE` file.
