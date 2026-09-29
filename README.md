@@ -36,9 +36,13 @@ The goal of this assignment is to practice AI-assisted frontend engineering work
 
 ## Project Status
 
-Week 1 repository setup is in progress.
+Week 1 repository setup is complete.
 
-`README.md` and `CLAUDE.md` are in place, and git history uses Conventional Commits. `LICENSE` and `.gitignore` exist as placeholders and still need content. A GitHub remote has not been added yet, and there is no frontend application code in this week’s setup.
+The repository includes `README.md`, `CLAUDE.md`, `LICENSE`, and `.gitignore`. A public GitHub repository has been created, and the project is connected to the `main` branch on GitHub.
+
+The repository follows Conventional Commits and uses Cursor for AI-assisted development and documentation improvement.
+
+No frontend application code is included because this Week 1 assignment focuses on repository setup and AI-assisted workflow.
 
 ## GitHub Setup
 
