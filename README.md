@@ -45,11 +45,9 @@ Week 1 repository setup is in progress.
 Clone the repository and enter the project directory:
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/flyrank-fe-01.git
+git clone https://github.com/meghabiradar10/flyrank-fe-01.git
 cd flyrank-fe-01
 ```
-
-Replace `<YOUR_GITHUB_USERNAME>` with the GitHub account that hosts this repository.
 
 ## Assignment Goals
 
