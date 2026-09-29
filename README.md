@@ -78,4 +78,4 @@ flyrank-fe-01/
 
 ## License
 
-This project uses the [MIT License](LICENSE). You may use, copy, modify, and distribute the software under the terms in the `LICENSE` file.
+This project uses the [MIT License](https://github.com/meghabiradar10/flyrank-fe-01/blob/main/LICENSE). You may use, copy, modify, and distribute the software under the terms in the `LICENSE` file.
