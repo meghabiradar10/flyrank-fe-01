@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card" aria-labelledby="settings-heading">
+        <header class="card-header">
+          <p class="eyebrow">Account</p>
+          <h1 id="settings-heading">Settings</h1>
+          <p class="subtitle">Update your name and email. Changes are saved on this device.</p>
+        </header>
+
+        <form id="settings-form" class="form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              placeholder="Ada Lovelace"
+              required
+              minlength="2"
+            />
+            <p class="error" id="name-error" hidden></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              placeholder="ada@example.com"
+              required
+            />
+            <p class="error" id="email-error" hidden></p>
+          </div>
+
+          <button type="submit" class="save-button">Save</button>
+          <p class="status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
