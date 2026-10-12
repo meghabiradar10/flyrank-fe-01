@@ -49,3 +49,18 @@ Before making changes:
 6. Summarize what was changed.
 
 When working with documentation, prioritize clarity, accuracy, and concise explanations.
+
+## Frontend Coding Standards
+
+1. **Accessible Form Controls and Error Association**:
+   - Every input with validation must have an associated error container linked via `aria-describedby="<field>-error"`.
+   - Dynamic error updates must toggle `aria-invalid="true"` or `"false"` on the input, and error containers must use `role="alert"`.
+   - On failed form submissions, programmatic focus must be moved to the first invalid field (`firstInvalid.focus()`).
+
+2. **Keyboard Navigation and Focus Indicators**:
+   - Never suppress native focus outlines with `outline: none` without providing an explicit, high-contrast `:focus-visible` replacement (e.g., `outline: 2px solid <color>; outline-offset: 2px;`).
+   - All interactive elements (inputs, buttons, links) must maintain distinct, visible `:focus-visible` states.
+
+3. **Defensive Storage and Schema Validation**:
+   - Never directly trust or consume parsed JSON from `localStorage` or `sessionStorage`.
+   - Always validate data structures with a runtime guard function checking type and expected properties (e.g., `isValidStoredSettings()`) before applying values to the DOM or application state. Discard or evict corrupted data safely.
